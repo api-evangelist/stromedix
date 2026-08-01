@@ -1,4 +1,16 @@
 aid: stromedix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stromedix.png
 name: Stromedix
 description: 'Stromedix is a company surfaced as a portfolio company of bessemer-venture-partners and
   added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
@@ -22,3 +34,12 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Defunct biotech (Cambridge, MA; fibrosis/organ-failure therapeutics) acquired
+    by Biogen Idec in 2012. No API surface. Domain stromedix.com now resolves to an
+    unrelated Indonesian online-slot gambling site (expired-domain takeover) — NOT
+    wired as a company property.'
